@@ -7,7 +7,7 @@ For users, simply subscribe to this mod on the Steam Workshop and enable it.
 [Download here](https://steamcommunity.com/sharedfiles/filedetails/?id=3287756628)
 
 ## Developers
-For information, see the source code and check out the demo [here](https://github.com/AtobaAzul/tooltip-api-techde).
+For information, see the source code and check out the demo [here](https://github.com/AtobaAzul/tooltip-api-techdemo).
 
 ### Found a bug? Have feedback
 Please report all bugs and leave any feedback in the [Issue Tracker](https://github.com/AtobaAzul/tooltip-api/issues).
