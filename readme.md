@@ -10,5 +10,5 @@ For users, simply subscribe to this mod on the Steam Workshop and enable it.
 For information, see the source code and check out the demo [here](https://github.com/AtobaAzul/tooltip-api-techde).
 
 ### Found a bug? Have feedback
-Please report all bugs and leave any feedback in the [Issue Tracker]([url goes here](https://github.com/AtobaAzul/tooltip-api/issues)).
+Please report all bugs and leave any feedback in the [Issue Tracker](https://github.com/AtobaAzul/tooltip-api/issues).
 Pull requests welcome!
