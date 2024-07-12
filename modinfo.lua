@@ -7,7 +7,7 @@ if not folder_name:find("workshop-") then
 end
 
 --RELEASE.MAJOR.MINOR.FIX
-local _version = "1.0.0.0"
+local _version = "1.0.0.1"
 description = [[
 󰀔 [ Version: ]] .. _version .. [[
   API that allows mods to easily add tooltips to the crafting interface for items.
