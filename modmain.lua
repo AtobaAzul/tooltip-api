@@ -39,7 +39,7 @@ end
 ---@param tag? string The character tag for your tooltip. This limits the tooltip to only show to this character. Leave blank for any.
 ---@param scalemode? string Sets the scalemode, defaults to 0.01
 ---@param scale? table Sets the size, defaults to {.9, .9, .9}
-function AddTooltipCatergory(name, tag, atlas, image, scalemode, scale)
+function AddTooltipCategory(name, tag, atlas, image, scalemode, scale)
     if tag == nil then tag = "generic" end
 
     if STRINGS.TOOLTIPS[tag] == nil then
@@ -53,6 +53,8 @@ function AddTooltipCatergory(name, tag, atlas, image, scalemode, scale)
     table.insert(TheTooltipData, { name = name, atlas = atlas, image = image, tag = tag, scalemode = scalemode, scale = scale })
 end
 
+env.AddTooltipCategory = AddTooltipCategory
+
 ---Helper method to avoid overwriting stuff.
 ---@param item string
 ---@param text string
@@ -64,7 +66,7 @@ function AddTooltipForItem(item, text, tag)
 
     item = string.upper(item)
 
-    assert(STRINGS.TOOLTIPS[tag], "[TOOLTIP API] Attempted to add tooltip to non-existing tag!\nMake sure to add a tooltip catergory first!")
+    assert(STRINGS.TOOLTIPS[tag], "[TOOLTIP API] Attempted to add tooltip to non-existing tag!\nMake sure to add a tooltip category first!")
 
     if STRINGS.TOOLTIPS[tag][item] ~= nil then
         STRINGS.TOOLTIPS[tag][item] = STRINGS.TOOLTIPS[tag][item] .. "\n" .. text
@@ -73,6 +75,7 @@ function AddTooltipForItem(item, text, tag)
     end
 end
 
+env.AddTooltipForItem = AddTooltipForItem
 env.AddClassPostConstruct("widgets/redux/craftingmenu_hud", function(self)
     local _OldOnUpdate = self.OnUpdate
 
