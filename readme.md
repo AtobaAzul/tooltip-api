@@ -4,12 +4,11 @@ This mod allows the creation of tooltips for the crafting interface that display
 
 ## Users
 For users, simply subscribe to this mod on the Steam Workshop and enable it. 
-[Client Version](put the url here)
-[Server Version](url goes here)
+[Download here](https://steamcommunity.com/sharedfiles/filedetails/?id=3287756628)
 
 ## Developers
-For information, refer to the tutorial in [this post](url goes here.) on the Klei forums.
+For information, see the source code and check out the demo [here](https://github.com/AtobaAzul/tooltip-api-techde).
 
 ### Found a bug? Have feedback
-Please report all bugs and leave any feedback in the [Issue Tracker](url goes here).
+Please report all bugs and leave any feedback in the [Issue Tracker]([url goes here](https://github.com/AtobaAzul/tooltip-api/issues)).
 Pull requests welcome!
